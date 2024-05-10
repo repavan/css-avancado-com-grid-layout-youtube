@@ -1,0 +1,80 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+main{
+    display: grid;
+    background-color: #F7F7F7; 
+    padding: 35px;
+    grid-template: repeat(2, auto)/repeat(2, auto);
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    width: 925px;
+}
+
+.main{
+    display: grid;
+    /* grid-template: 1/1/3/2; */
+}
+
+.main source{
+    background-color: #C4C4C4;
+    height: 217px;
+    width: 543px;
+}
+
+.main h1{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.main .visu{
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.main .descritivo{
+    font-size: 16px;
+}
+
+.lateral{
+    display: grid;
+    /* grid-template: 1/2/3/3; */
+}
+
+.lateral .propaganda{
+    background-color: #C4C4C4;
+    height: 56px;
+    width: 290.20px;
+    align-content: center;   
+}
+
+.lateral .propaganda p{
+    display: flex;
+    font-size: 11px;
+    justify-content: center;
+}
+
+.lateral .miniaturas{
+    display: flex;
+    align-items: center;
+}
+
+.lateral .miniaturas source{
+    background-color: #C4C4C4;
+    height: 71px;
+    width: 101px;
+    margin-right: 5px;
+}
+
+.lateral .miniaturas .info h2{
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0px 0px 7px;
+}
+
+.lateral .miniaturas p{
+    font-size: 11px;
+    margin: 4px 0px;
+}
